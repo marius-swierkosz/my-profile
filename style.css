@@ -1,0 +1,132 @@
+/* Colors and fonts */
+
+body {
+	background: #120d1a;
+	font-family: EB Garamond ;
+	font-size: 20px;
+	font-weight: 300;
+	color: #192965;
+
+}
+
+h1, h2, h3{
+	color: #ffa500;
+	font-family: Ubuntu ;
+
+}
+
+h1 {
+ 
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	font-family: Ubuntu ;
+	color: rgb(230, 230, 230);
+	transition: background-color 0.5s ease;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 40px;
+}
+
+a:hover {
+	font-weight: bolder;
+	color: rgb(255, 0, 204);
+}
+
+
+/* Classes and IDs*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+.img-circle {
+	border-bottom-left-radius: 0px;
+    border-radius: 4px;
+    box-shadow: 0px 5px 0px  #120d1a;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	margin: 20px;
+	border-bottom-left-radius: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;	padding: 10px;
+}
+
+.btn-red {
+	background-color: rgb(255, 0, 204);
+	color: white;
+	font-size: 20px;
+}
+
+.btn-red:hover {
+	background-color: white;
+	color: rgb(255, 0, 204);
+}
+
+#intro {
+	padding-bottom: 40px;
+	box-shadow: 0px 5px 0px  rgb(153, 255, 255);
+}
+
+#card-second {
+	box-shadow: 0px 5px 0px  rgb(255, 51, 102);
+}
+
+#card-third {
+	box-shadow: 0px 5px 0px  rgb(255, 0, 204);
+}
+
+#card-fourth {
+	box-shadow: 0px 5px 0px  rgb(255, 206, 51);
+}
+
+#card-fifth {
+	box-shadow: 0px 5px 0px  rgb(102, 51, 204);
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 750px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
